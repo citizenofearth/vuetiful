@@ -11,9 +11,14 @@ module.exports = {
       },
       // this will apply to both plain `.js` files
       // AND `<script>` blocks in `.vue` files
+      // excludes node_modules for JS transpilation
       {
         test: /\.js$/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
+        exclude: file => (
+            /node_modules/.test(file) &&
+            !/\.vue\.js/.test(file)
+        )
       },
       // this will apply to both plain `.css` files
       // AND `<style>` blocks in `.vue` files
