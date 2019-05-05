@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bulma": "^0.7.4",
     "core-js": "^2.6.5",
-    "foundation-sites": "^6.5.3",
     "lodash": "^4.17.11",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.4"
