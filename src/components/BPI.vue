@@ -40,10 +40,9 @@ export default {
       .then(response => {
         this.info = response.data.bpi
       })
-      .catch(error => {
-        console.log(error)
+      .catch(
         this.errored = true
-      })
+      )
       .finally(() => this.loading = false)
   }
 }
