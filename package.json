@@ -10,12 +10,17 @@
   "dependencies": {
     "axios": "^0.19.0",
     "bulma": "^0.7.5",
+<<<<<<< HEAD
     "core-js": "^3.4.8",
+=======
+    "core-js": "^3.1.4",
+>>>>>>> 7993aa08b3ef49d932bcf2d62c3994acfb3c7c9b
     "lodash": "^4.17.15",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.5"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@vue/cli-plugin-babel": "^3.12.1",
     "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-service": "^3.12.1",
@@ -26,6 +31,18 @@
     "eslint-plugin-vue": "^5.2.3",
     "node-sass": "^4.13.0",
     "sass-loader": "^7.3.1",
+=======
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+>>>>>>> 7993aa08b3ef49d932bcf2d62c3994acfb3c7c9b
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
